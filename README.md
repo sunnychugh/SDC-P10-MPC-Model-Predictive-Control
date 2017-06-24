@@ -43,7 +43,7 @@ So I settled for the values mentioned in videos, but ofcourse can change as requ
 Various multiplying factors has been tried for cost function variations, finally settled for parameters as mentioned in lines 65-95 in MPC.cpp. Playing with parameters can vary the trajectory directions, speed,change rate in direction of car,change rate in accelration of car , among others. 
 
 ## Latency
-The purpose is to mimic real driving conditions where the car does actuate the commands instantly. It is taken care at lines 200-210 in main.cpp.
+The purpose is to mimic real driving conditions where the car does actuate the commands instantly. It is taken care at lines 147-148 & 200-210 in main.cpp.
 
 
 
