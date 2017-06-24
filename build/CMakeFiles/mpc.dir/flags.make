@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11 -O3
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include -I/home/sun-c-n/Dropbox/Term-2/project10-predictiveControl/CarND-MPC-Project-master/src/Eigen-3.3 
+CXX_INCLUDES = -I/usr/local/include -I/home/sun-c-n/Dropbox/Term-2/project10-predictiveControl/SDC-P10-MPC-Model-Predictive-Control/src/Eigen-3.3 
 

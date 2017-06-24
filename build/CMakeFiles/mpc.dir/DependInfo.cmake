@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sun-c-n/Dropbox/Term-2/project10-predictiveControl/CarND-MPC-Project-master/src/MPC.cpp" "/home/sun-c-n/Dropbox/Term-2/project10-predictiveControl/CarND-MPC-Project-master/build/CMakeFiles/mpc.dir/src/MPC.cpp.o"
-  "/home/sun-c-n/Dropbox/Term-2/project10-predictiveControl/CarND-MPC-Project-master/src/main.cpp" "/home/sun-c-n/Dropbox/Term-2/project10-predictiveControl/CarND-MPC-Project-master/build/CMakeFiles/mpc.dir/src/main.cpp.o"
+  "/home/sun-c-n/Dropbox/Term-2/project10-predictiveControl/SDC-P10-MPC-Model-Predictive-Control/src/MPC.cpp" "/home/sun-c-n/Dropbox/Term-2/project10-predictiveControl/SDC-P10-MPC-Model-Predictive-Control/build/CMakeFiles/mpc.dir/src/MPC.cpp.o"
+  "/home/sun-c-n/Dropbox/Term-2/project10-predictiveControl/SDC-P10-MPC-Model-Predictive-Control/src/main.cpp" "/home/sun-c-n/Dropbox/Term-2/project10-predictiveControl/SDC-P10-MPC-Model-Predictive-Control/build/CMakeFiles/mpc.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
