@@ -141,7 +141,11 @@ int main()
           double throttle_value = j[1]["throttle"];
 
           Eigen::VectorXd state(6);
-          state << 0, 0, 0, v, cte, epsi;
+          //state << 0, 0, 0, v, cte, epsi;
+          // Use the x position and speed of the current state and project it
+          // 100ms into the future to account for latency
+          double x_lat = 0 + v * 100 / (1000 * 60 * 60);
+          state << x_lat, 0, 0, v, cte, epsi;
 
           auto vars = mpc.Solve(state, coeffs);
 
