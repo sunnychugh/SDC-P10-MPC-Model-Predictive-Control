@@ -18,8 +18,11 @@ a (acceleration, i.e. throttle and brake pedals)
 
 ## Update equations (Vehicle Dynamics)
 x = x + v*cos(ψ)* dt
+
 y = y + v sin(psi) dt
+
 v=v+a∗dt
+
 ψ=ψ+(v/Lf)*δ∗dt
 
 ## cross-track error eqns-
